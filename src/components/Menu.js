@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
-// import CONSTANTS from '../data/CONSTANTS'
+import CONSTANTS from '../data/CONSTANTS'
 
 const Menu = () => {
   useEffect(()=>{
     console.log("came")
-    // window.open(CONSTANTS.WHATSAPP_URL || "https://www.google.com")
+    window.open(CONSTANTS.WHATSAPP_URL || "https://www.google.com")
   },[])
 
-  let menu = [
+  let menu1 = [
     {
       displayName: "Home",
       slug: "home",
@@ -29,6 +29,7 @@ const Menu = () => {
       route: "/contact"
     },
   ]
+  const menu=[]
   return (
     <div className='menu-main'>
       {menu.map(item => <div className='menu-item'>

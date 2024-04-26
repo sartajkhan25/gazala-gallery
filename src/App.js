@@ -3,7 +3,7 @@ import './App.css';
 import Home from './pages/Home';
 // import CONSTANTS from './data/CONSTANTS';
 // import { useEffect } from 'react';
-
+import how1order from "./data/img/how2order1.png"
 function App() {
 
 
@@ -32,6 +32,10 @@ function App() {
         <h1>Welcome to GAZALA GALLERY</h1>
         <h2>Please wait</h2>
         <h3>(You are being redirected to whatsapp)</h3>
+        <h3>(refersh if not being proceed to whatsapp)</h3>
+        <br />
+        <br />
+      <img src={how1order} className='w-75p'/>
       </div>
     </div>
   );

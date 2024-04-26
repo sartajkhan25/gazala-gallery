@@ -1,5 +1,5 @@
 const CONSTANTS = {
-    WHATYSAPP_URL:""
+    WHATSAPP_URL:"https://wa.link/v5ren3"
 }
 
 
