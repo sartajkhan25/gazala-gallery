@@ -1,0 +1,12 @@
+# Ignore files with .txt extension
+# *.txt
+
+# Ignore the 'build' directory
+/build
+/node_modules
+
+# Ignore a specific file
+# my_file.txt
+
+# Ignore all files in any directory named 'temp'
+# **/temp/
