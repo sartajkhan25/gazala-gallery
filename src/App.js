@@ -35,7 +35,7 @@ function App() {
         <h3>(refersh if not being proceed to whatsapp)</h3>
         <br />
         <br />
-      <img src={how1order} className='w-75p'/>
+      <img src={how1order} alt='how to order' className='w-75p'/>
       </div>
     </div>
   );

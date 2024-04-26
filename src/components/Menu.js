@@ -29,6 +29,7 @@ const Menu = () => {
       route: "/contact"
     },
   ]
+  console.log(menu1)
   const menu=[]
   return (
     <div className='menu-main'>
