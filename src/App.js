@@ -4,9 +4,12 @@ import Home from './pages/Home';
 // import CONSTANTS from './data/CONSTANTS';
 // import { useEffect } from 'react';
 import how1order from "./data/img/how2order1.png"
+import CONSTANTS from './data/CONSTANTS';
 function App() {
 
-
+  const openWhatsapp=()=>{
+    window.open(CONSTANTS.WHATSAPP_URL || "https://www.google.com")
+  }
 
 
   return (
@@ -29,7 +32,7 @@ function App() {
       <div className='home-redirect'>
         <br />
         <br />
-        <h1>Welcome to GAZALA GALLERY</h1>
+        <h1 onClick={openWhatsapp}>Welcome to GAZALA GALLERY</h1>
         <h2>Please wait</h2>
         <h3>(You are being redirected to whatsapp)</h3>
         <h3>(refersh if not being proceed to whatsapp)</h3>

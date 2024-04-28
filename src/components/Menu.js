@@ -6,6 +6,7 @@ const Menu = () => {
     console.log("came")
     window.open(CONSTANTS.WHATSAPP_URL || "https://www.google.com")
   },[])
+  
 
   let menu1 = [
     {
